@@ -1,13 +1,16 @@
+/* Apply border-box sizing to all elements, reset padding and margin */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Set background color for the entire body */
 body {
     background-color: #d9dcd6;
 }
 
+/* Styling for the header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* Styling for the main heading in the header */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Styling for a specific class within the header heading */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Styling for the navigation menu within the header */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ header nav {
     font-size: 20px;
 }
 
+/* Styling for the list items within the navigation menu */
 header nav ul {
     list-style-type: none;
 }
 
+/* Styling for each individual list item in the navigation menu */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Styling for links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Styling for paragraphs */
 p {
     font-size: 16px;
 }
 
+/* Styling for a specific class named "Pedro-Pascal" */
 .Pedro-Pascal {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* Styling for elements with the class "float-left" */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Styling for elements with the class "float-right" */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Styling for the main content area */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Styling for the aside (sidebar) content */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -86,25 +101,26 @@ aside {
     background-color: #2589bd;
 }
 
+/* Styling for elements with the class "benefit" */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Styling for headings within the "benefit" class */
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-
+/* Styling for images within the "benefit" class */
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
-
+/* Styling for elements with the class "service" */
 .service {
     margin-bottom: 20px;
     padding: 50px;
@@ -112,22 +128,20 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-    
 }
 
-
+/* Styling for images within the "service" class */
 .service img {
     max-height: 200px;
 }
 
-
+/* Styling for headings within the "service" class */
 .service h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-
-
+/* Styling for the footer */
 footer {
     padding: 30px;
     clear: both;
@@ -135,6 +149,7 @@ footer {
     text-align: center;
 }
 
+/* Styling for headings within the footer */
 footer h2 {
     font-size: 20px;
 }
